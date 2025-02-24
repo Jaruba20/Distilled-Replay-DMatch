@@ -1,38 +1,25 @@
 # Distilled Replay with Distribution Matching
 
 
-<style>
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .image-grid img {
-    width: 100px;
-    height: auto;
-  }
-</style>
-
-<div class="image-grid">
-  <img src="miscellanea/distilled_figures/cifar10/orig_avion.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_bird.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_cat.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_coche.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_deer.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_dog.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_frog.png">
-  <img src="miscellanea/distilled_figures/cifar10/orig_horse.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_avion.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_bird.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_cat.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_coche.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_deer.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_dog.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_frog.png">
-  <img src="miscellanea/distilled_figures/cifar10/dis_horse.png">
+<div style="display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; justify-content: center; align-items: center;">
+  <img src="miscellanea/distilled_figures/cifar10/orig_avion.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_bird.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_cat.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_coche.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_deer.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_dog.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_frog.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/orig_horse.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_avion.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_bird.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_cat.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_coche.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_deer.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_dog.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_frog.png" width="150">
+  <img src="miscellanea/distilled_figures/cifar10/dis_horse.png" width="150">
 </div>
+
 
 <br>
 
