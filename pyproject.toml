@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name =  "Distilled-Replay-DMatch"
+version = "0.1.0"
+authors = [
+    {name = "Javier Ruiz", email = "fcosalesjavier@gmail.com"},
+]
+dependencies = [
+  "torch>=0.1.2"
+  "torchvision>=0.7.0"
+  "numpy>=1.16.6"
+  "requests>=2.21.0"
+  "python-mnist>=0.7"
+  "higher"
+  "wandb"
+  "continual-flame"
+]
+description = "Distilled Replay with Distribution Matching"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+requires-python = "3.8.2"
+dynamic = ["version"]
