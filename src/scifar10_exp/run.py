@@ -251,14 +251,16 @@ def distill_dm(model, buffer, config, criterion, train_loader):
     #log_config = config['log_config']
     device = run_config['device']
 
-    model.train()
+    model.train() # Training mode activated
 
+    # batch_size = len of buffer so all data is loaded at once.
     buff_imgs, buff_trgs = next(iter(DataLoader(buffer, batch_size=len(buffer))))
     buff_imgs, buff_trgs = buff_imgs.to(device), buff_trgs.to(device)
     buff_imgs = buff_imgs.contiguous().requires_grad_(True)
 
     buff_opt = torch.optim.SGD([buff_imgs], lr=param_config['meta_lr'])
 
+    # Generate 'n_inits' different initialized versions of the model's weights
     init_loader = DataLoader(
         ModelInitDataset(model, param_config['n_inits']),
         batch_size=1,
